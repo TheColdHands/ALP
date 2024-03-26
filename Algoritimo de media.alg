@@ -1,26 +1,27 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Willian
+// DescriÃ§Ã£o   : Media do Aluno
+// Autor(a)    : Marcos Aurelio
 // Data atual  : 3/26/2024
+
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nota1, nota2: inteiro
 media: real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval("Digite a primeira nota:")
 leia (nota1)
 escreval("Digite a segunda nota:")
 leia (nota2)
 media <- (nota1+nota2)/2
-se (media >=7 )então
+se (media >=7 )entÃ£o
    escreval ("Aprovado")
-   senão
+   senÃ£o
    escreval("Reprovado")
 fimse
 
